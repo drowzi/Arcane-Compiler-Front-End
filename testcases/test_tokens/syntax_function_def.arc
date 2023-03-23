@@ -1,0 +1,1 @@
+function func(x,y);

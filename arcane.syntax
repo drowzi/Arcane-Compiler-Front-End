@@ -1,0 +1,61 @@
+Arcane Syntax (5/19/2017, build 1)
+
+Variables:
+	Variable declaration:
+		"var foo = bar;", "foo = bar;"
+		
+	Constant variable declaration:
+		"const foo = bar"
+		
+	Function declaration:
+		"function foo() {}"
+		
+Control flow:
+	If condition:
+		"if(x > 10) {}"
+	If else condition:
+		"if(x > 10) {} else {}"
+	For condition:
+		"for(x=0;x<10;x=x+1){}"
+	While condition:
+		"while(x < 10) {}"
+		
+Example program:
+
+	const my_number = 5;
+	var add_five = (number) {
+		return number + 5;
+	}
+	var my_new_number = add_five(my_number);	
+	if(my_new_number == 10) {
+		out(my_new_number)
+	}
+	
+Regular expression program syntax:
+	
+	char = [a-zA-Z]
+	number = [0-9]
+	symbol = [<>=:?-+/%.!|^&[](){}]
+	string = ('|")(char|number|symbol)*('|")
+	expr = 
+	any = (string|char|number|symbol)
+	identifier = char(char|number)*
+	declaration = (var|const)(identifier=(string|char|number|symbol)+)+
+	
+	if_stmt = if(expr) { 
+					stmts* 
+			   } (else { 
+					stmts*
+			   }) ?
+			   
+	for_stmt = for(declaration;expr;expr) {
+					stmts*
+			   }
+			   
+	while_stmt = while(expr) {
+					stmts*
+				 }
+	
+
+
+	

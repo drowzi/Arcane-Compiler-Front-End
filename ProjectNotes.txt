@@ -1,0 +1,6 @@
+Preferred node types: program, block, seq, eval(expr), stmt, id, rel, op, decl
+
+Use a symbol table to keep pointers to identifiers and scope.
+
+Constant folding - If an expression contains only constants, calculate the result before code generation.
+

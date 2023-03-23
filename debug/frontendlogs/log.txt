@@ -1,0 +1,203 @@
+----------
+TOKEN_DUMP
+----------
+TOKEN: type='START_OF_PROGRAM', value='sop', line number=1, file id=1
+TOKEN: type='INCLUDE', value='include', line number=1, file id=1
+TOKEN: type='LOCAL_IMPORT_PATH', value='test.arc', line number=1, file id=1
+TOKEN: type='START_OF_PROGRAM', value='sop', line number=1, file id=2
+TOKEN: type='DEFINE', value='var', line number=1, file id=2
+TOKEN: type='IDENTIFIER', value='x', line number=1, file id=2
+TOKEN: type='ASSIGN', value='=', line number=1, file id=2
+TOKEN: type='UNSIGNED_CHAR', value='3', line number=1, file id=2
+TOKEN: type='STATEMENT_END', value=';', line number=1, file id=2
+TOKEN: type='COMMENT', value='/*', line number=2, file id=1
+TOKEN: type='INCLUDE', value='include', line number=2, file id=1
+TOKEN: type='C_IMPORT', value='c_injection.c', line number=2, file id=1
+TOKEN: type='COMMENT', value='/*', line number=2, file id=1
+TOKEN: type='INCLUDE', value='include', line number=2, file id=1
+TOKEN: type='NATIVE_IMPORT', value='Math', line number=2, file id=1
+TOKEN: type='COMMENT', value='/*', line number=2, file id=1
+TOKEN: type='DEFINE', value='var', line number=2, file id=1
+TOKEN: type='IDENTIFIER', value='string_test', line number=2, file id=1
+TOKEN: type='ASSIGN', value='=', line number=2, file id=1
+TOKEN: type='STRING', value='Hello,world', line number=2, file id=1
+TOKEN: type='STATEMENT_END', value=';', line number=2, file id=1
+TOKEN: type='DEFINE', value='var', line number=3, file id=1
+TOKEN: type='IDENTIFIER', value='test_ident_define', line number=3, file id=1
+TOKEN: type='ASSIGN', value='=', line number=3, file id=1
+TOKEN: type='IDENTIFIER', value='string_test', line number=3, file id=1
+TOKEN: type='STATEMENT_END', value=';', line number=3, file id=1
+TOKEN: type='DEFINE', value='var', line number=4, file id=1
+TOKEN: type='IDENTIFIER', value='signed_char', line number=4, file id=1
+TOKEN: type='ASSIGN', value='=', line number=4, file id=1
+TOKEN: type='UNARY_MINUS', value='-', line number=4, file id=1
+TOKEN: type='UNSIGNED_CHAR', value='30', line number=4, file id=1
+TOKEN: type='STATEMENT_END', value=';', line number=4, file id=1
+TOKEN: type='DEFINE', value='var', line number=5, file id=1
+TOKEN: type='IDENTIFIER', value='unsigned_char', line number=5, file id=1
+TOKEN: type='ASSIGN', value='=', line number=5, file id=1
+TOKEN: type='UNSIGNED_CHAR', value='150', line number=5, file id=1
+TOKEN: type='STATEMENT_END', value=';', line number=5, file id=1
+TOKEN: type='DEFINE', value='var', line number=6, file id=1
+TOKEN: type='IDENTIFIER', value='unsigned_int', line number=6, file id=1
+TOKEN: type='ASSIGN', value='=', line number=6, file id=1
+TOKEN: type='UNARY_MINUS', value='-', line number=6, file id=1
+TOKEN: type='SIGNED_INT', value='30000', line number=6, file id=1
+TOKEN: type='STATEMENT_END', value=';', line number=6, file id=1
+TOKEN: type='DEFINE', value='var', line number=7, file id=1
+TOKEN: type='IDENTIFIER', value='signed_int', line number=7, file id=1
+TOKEN: type='ASSIGN', value='=', line number=7, file id=1
+TOKEN: type='SIGNED_INT', value='65500', line number=7, file id=1
+TOKEN: type='STATEMENT_END', value=';', line number=7, file id=1
+TOKEN: type='DEFINE', value='var', line number=8, file id=1
+TOKEN: type='IDENTIFIER', value='unsigned_long', line number=8, file id=1
+TOKEN: type='ASSIGN', value='=', line number=8, file id=1
+TOKEN: type='UNARY_MINUS', value='-', line number=8, file id=1
+TOKEN: type='SIGNED_LONG', value='1000000', line number=8, file id=1
+TOKEN: type='STATEMENT_END', value=';', line number=8, file id=1
+TOKEN: type='DEFINE', value='var', line number=9, file id=1
+TOKEN: type='IDENTIFIER', value='signed_long', line number=9, file id=1
+TOKEN: type='ASSIGN', value='=', line number=9, file id=1
+TOKEN: type='SIGNED_LONG', value='3000000000', line number=9, file id=1
+TOKEN: type='STATEMENT_END', value=';', line number=9, file id=1
+TOKEN: type='DEFINE', value='var', line number=10, file id=1
+TOKEN: type='IDENTIFIER', value='test_equation_one', line number=10, file id=1
+TOKEN: type='ASSIGN', value='=', line number=10, file id=1
+TOKEN: type='UNSIGNED_CHAR', value='2', line number=10, file id=1
+TOKEN: type='ADD', value='+', line number=10, file id=1
+TOKEN: type='UNSIGNED_CHAR', value='5', line number=10, file id=1
+TOKEN: type='SUBTRACT', value='-', line number=10, file id=1
+TOKEN: type='UNSIGNED_CHAR', value='7', line number=10, file id=1
+TOKEN: type='STATEMENT_END', value=';', line number=10, file id=1
+TOKEN: type='DEFINE', value='var', line number=11, file id=1
+TOKEN: type='IDENTIFIER', value='test_equation_two', line number=11, file id=1
+TOKEN: type='ASSIGN', value='=', line number=11, file id=1
+TOKEN: type='EQUATION_START', value='(', line number=11, file id=1
+TOKEN: type='UNSIGNED_CHAR', value='3', line number=11, file id=1
+TOKEN: type='ADD', value='+', line number=11, file id=1
+TOKEN: type='UNSIGNED_CHAR', value='5', line number=11, file id=1
+TOKEN: type='MULTIPLY', value='*', line number=11, file id=1
+TOKEN: type='UNSIGNED_CHAR', value='7', line number=11, file id=1
+TOKEN: type='DIVIDE', value='/', line number=11, file id=1
+TOKEN: type='UNSIGNED_CHAR', value='11', line number=11, file id=1
+TOKEN: type='EQUATION_END', value=')', line number=11, file id=1
+TOKEN: type='STATEMENT_END', value=';', line number=11, file id=1
+TOKEN: type='DEFINE', value='var', line number=12, file id=1
+TOKEN: type='IDENTIFIER', value='test', line number=12, file id=1
+TOKEN: type='ASSIGN', value='=', line number=12, file id=1
+TOKEN: type='UNSIGNED_CHAR', value='0', line number=12, file id=1
+TOKEN: type='LOG_AND', value='&&', line number=12, file id=1
+TOKEN: type='UNSIGNED_CHAR', value='0', line number=12, file id=1
+TOKEN: type='LOG_OR', value='||', line number=12, file id=1
+TOKEN: type='UNSIGNED_CHAR', value='1', line number=12, file id=1
+TOKEN: type='STATEMENT_END', value=';', line number=12, file id=1
+TOKEN: type='FUNC_DECL', value='function', line number=13, file id=1
+TOKEN: type='IDENTIFIER', value='is_even', line number=13, file id=1
+TOKEN: type='DEF_PARAM_LIST', value='(', line number=13, file id=1
+TOKEN: type='DEF_PARAM', value='number', line number=13, file id=1
+TOKEN: type='DEF_PARAM_END', value=')', line number=13, file id=1
+TOKEN: type='BLOCK_START', value='{', line number=13, file id=1
+TOKEN: type='F_RETURN', value='return', line number=13, file id=1
+TOKEN: type='IDENTIFIER', value='number', line number=13, file id=1
+TOKEN: type='MODULO', value='%', line number=13, file id=1
+TOKEN: type='UNSIGNED_CHAR', value='2', line number=13, file id=1
+TOKEN: type='LOG_EQUALS', value='==', line number=13, file id=1
+TOKEN: type='UNSIGNED_CHAR', value='0', line number=13, file id=1
+TOKEN: type='STATEMENT_END', value=';', line number=13, file id=1
+TOKEN: type='BLOCK_END', value='}', line number=14, file id=1
+----------
+AST_DUMP
+----------
+{
+    "[p_key=0]AssignNode(held_value=10)": {
+        "[p_key=0]IdentifierNode(held_value=x)": {},
+        "[p_key=1]LiteralNode(held_value=3)": {}
+    },
+    "[p_key=10]AssignNode(held_value=10)": {
+        "[p_key=0]IdentifierNode(held_value=signed_long)": {},
+        "[p_key=1]LiteralNode(held_value=3000000000)": {}
+    },
+    "[p_key=11]AssignNode(held_value=10)": {
+        "[p_key=0]IdentifierNode(held_value=test_equation_one)": {},
+        "[p_key=1]OpNode(held_value=36)": {
+            "[p_key=0]LiteralNode(held_value=7)": {},
+            "[p_key=0]OpNode(held_value=35)": {
+                "[p_key=0]LiteralNode(held_value=2)": {},
+                "[p_key=0]LiteralNode(held_value=5)": {}
+            }
+        }
+    },
+    "[p_key=12]AssignNode(held_value=10)": {
+        "[p_key=0]IdentifierNode(held_value=test_equation_two)": {},
+        "[p_key=1]OpNode(held_value=35)": {
+            "[p_key=0]LiteralNode(held_value=3)": {},
+            "[p_key=0]OpNode(held_value=37)": {
+                "[p_key=0]LiteralNode(held_value=11)": {},
+                "[p_key=0]OpNode(held_value=38)": {
+                    "[p_key=0]LiteralNode(held_value=5)": {},
+                    "[p_key=0]LiteralNode(held_value=7)": {}
+                }
+            }
+        }
+    },
+    "[p_key=13]AssignNode(held_value=10)": {
+        "[p_key=0]IdentifierNode(held_value=test)": {},
+        "[p_key=1]OpNode(held_value=44)": {
+            "[p_key=0]LiteralNode(held_value=1)": {},
+            "[p_key=0]OpNode(held_value=43)": {
+                "[p_key=0]LiteralNode(held_value=0)": {}
+            }
+        }
+    },
+    "[p_key=14]FunctionDeclNode(held_value=is_even)": {
+        "[p_key=0]ArgumentsNode(held_value=ARGUMENTS)": {
+            "[p_key=0]ArgumentNode(held_value=number)": {}
+        },
+        "[p_key=1]BlockNode(held_value=SCOPE=1)": {
+            "[p_key=0]ReturnNode(held_value=RETURN)": {
+                "[p_key=0]OpNode(held_value=42)": {
+                    "[p_key=0]LiteralNode(held_value=0)": {},
+                    "[p_key=0]OpNode(held_value=45)": {
+                        "[p_key=0]IdentifierNode(held_value=number)": {},
+                        "[p_key=0]LiteralNode(held_value=2)": {}
+                    }
+                }
+            }
+        }
+    },
+    "[p_key=1]ImportNode(held_value=29)": {},
+    "[p_key=2]ImportNode(held_value=30)": {},
+    "[p_key=3]AssignNode(held_value=10)": {
+        "[p_key=0]IdentifierNode(held_value=string_test)": {}
+    },
+    "[p_key=4]AssignNode(held_value=10)": {
+        "[p_key=0]IdentifierNode(held_value=test_ident_define)": {},
+        "[p_key=1]IdentifierNode(held_value=string_test)": {}
+    },
+    "[p_key=5]AssignNode(held_value=10)": {
+        "[p_key=0]IdentifierNode(held_value=signed_char)": {},
+        "[p_key=1]UnaryOpNode(held_value=54)": {
+            "[p_key=0]LiteralNode(held_value=30)": {}
+        }
+    },
+    "[p_key=6]AssignNode(held_value=10)": {
+        "[p_key=0]IdentifierNode(held_value=unsigned_char)": {},
+        "[p_key=1]LiteralNode(held_value=150)": {}
+    },
+    "[p_key=7]AssignNode(held_value=10)": {
+        "[p_key=0]IdentifierNode(held_value=unsigned_int)": {},
+        "[p_key=1]UnaryOpNode(held_value=54)": {
+            "[p_key=0]LiteralNode(held_value=30000)": {}
+        }
+    },
+    "[p_key=8]AssignNode(held_value=10)": {
+        "[p_key=0]IdentifierNode(held_value=signed_int)": {},
+        "[p_key=1]LiteralNode(held_value=65500)": {}
+    },
+    "[p_key=9]AssignNode(held_value=10)": {
+        "[p_key=0]IdentifierNode(held_value=unsigned_long)": {},
+        "[p_key=1]UnaryOpNode(held_value=54)": {
+            "[p_key=0]LiteralNode(held_value=1000000)": {}
+        }
+    }
+}

@@ -1,0 +1,6 @@
+cls
+@echo off
+@echo Running testsuite...
+python -m unittest  -v testsuite.py
+@echo Testsuite complete, running main file...
+python arc.py token_test.arc

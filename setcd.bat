@@ -1,0 +1,1 @@
+cmd /k ""cd C:\Users\Allen\Desktop\Programming\Language Design\Arcane interpreter\1\arcane" & prompt [arcane-compiler] & cls"

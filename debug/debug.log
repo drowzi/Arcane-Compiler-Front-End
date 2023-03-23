@@ -1,0 +1,24 @@
+DEBUG:root:Source argument is present, checking for extension .arc...
+DEBUG:root:Extension is correct, proceeding to parse file.
+DEBUG:root:Successfully opened read stream for file - test.arc
+DEBUG:root:Sucessfully opened write stream for c output.
+DEBUG:root:Source argument is present, checking for extension .arc...
+DEBUG:root:Extension is correct, proceeding to parse file.
+DEBUG:root:Successfully opened read stream for file - test.arc
+DEBUG:root:Sucessfully opened write stream for c output.
+DEBUG:root:Source argument is present, checking for extension .arc...
+DEBUG:root:Extension is correct, proceeding to parse file.
+DEBUG:root:Successfully opened read stream for file - test.arc
+DEBUG:root:Sucessfully opened write stream for c output.
+DEBUG:root:Source argument is present, checking for extension .arc...
+DEBUG:root:Extension is correct, proceeding to parse file.
+DEBUG:root:Successfully opened read stream for file - test.arc
+DEBUG:root:Sucessfully opened write stream for c output.
+DEBUG:root:Source argument is present, checking for extension .arc...
+DEBUG:root:Extension is correct, proceeding to parse file.
+DEBUG:root:Successfully opened read stream for file - test.arc
+DEBUG:root:Sucessfully opened write stream for c output.
+DEBUG:root:Source argument is present, checking for extension .arc...
+DEBUG:root:Extension is correct, proceeding to parse file.
+DEBUG:root:Successfully opened read stream for file - test.arc
+DEBUG:root:Sucessfully opened write stream for c output.

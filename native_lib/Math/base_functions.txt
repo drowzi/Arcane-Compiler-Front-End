@@ -1,0 +1,6 @@
+square root
+power
+logarithm
+nbase_conversion
+floor
+ceiling
